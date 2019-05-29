@@ -28,8 +28,8 @@ public class VkClient {
 
     private void createMainFriend(){
 
-        UserActor userActor = new UserActor(65309196, "0c47dedbe00ce5d04416d0e379a0b039fd9ef8672c5349242ae24a1af01a4b7b31ecbea39c4e8e558ac7f");
-        ServiceActor serviceActor = new ServiceActor(6935612, "z3Q3XRmtHYLPGjWFJI03","aa0ecda2aa0ecda2aa0ecda2fdaa67199eaaa0eaa0ecda2f6a54bbdb9d93017b2418f07" );
+        UserActor userActor = new UserActor(65309196, );
+        ServiceActor serviceActor = new ServiceActor(6935612, "z3Q3XRmtHYLPGjWFJI03",);
 
         FriendsGetQuery friendsGetQuery ;
         friendsGetQuery = vkApiClient.friends().get(serviceActor).userId(userActor.getId())
